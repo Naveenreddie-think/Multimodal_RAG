@@ -1,0 +1,10 @@
+{
+  "notebook": "02_text_rag_baseline",
+  "embed_model": "all-MiniLM-L6-v2",
+  "chunk_size": 300,
+  "chunk_overlap": 50,
+  "total_chunks": 235,
+  "index_vectors": 235,
+  "top_k": 5,
+  "notes": "Text-only RAG baseline. Multimodal extension in Notebook 03."
+}

@@ -1,0 +1,13 @@
+{
+  "notebook": "03_multimodal_extension",
+  "clip_model": "openai/clip-vit-base-patch32",
+  "text_model": "all-MiniLM-L6-v2",
+  "device": "cpu",
+  "text_chunks": 235,
+  "image_chunks": 156,
+  "image_embedding_dim": 512,
+  "text_weight": 0.6,
+  "image_weight": 0.4,
+  "guaranteed_images": 2,
+  "notes": "CLIP ViT-B/32 image embeddings. Guaranteed image slots needed \u2014 CLIP scores inherently lower than text-text cosine. Next: wire multimodal_retrieve() into src/pipeline/rag_pipeline.py + FastAPI."
+}
